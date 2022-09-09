@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-admin-project"
+version = "0.1.0"
+description = ""
+authors = ["insolor <insolor@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi-admin = "^1.0.4"
+uvicorn = "^0.18.3"
+redis = "^4.3.4"
+asyncpg = "^0.26.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

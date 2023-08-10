@@ -8,7 +8,7 @@ authors = ["insolor <insolor@gmail.com>"]
 python = "^3.7"
 fastapi-admin = "^1.0.4"
 uvicorn = "^0.18.3"
-redis = "^4.3.4"
+redis = "^4.4.4"
 asyncpg = "^0.26.0"
 
 [tool.poetry.dev-dependencies]
